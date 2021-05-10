@@ -42,7 +42,7 @@ def genROI(composition):
                 ROI[y][x][c] = key[roiPixel][c]
     return ROI
 
-def main(fn, model_fn="RF_96", depth=1):
+def main(fn, model_fn="MultinomialNB_86", depth=1):
     model = load(f'models\\{model_fn}.joblib') #for live, change path to f'..\\models\\{model_fn}.joblib'
     picture = image.get_pixels_from_file(fn)
     len_y = len(picture)
