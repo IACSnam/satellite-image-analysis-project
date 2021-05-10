@@ -1,0 +1,14 @@
+    for y in range(run_y*depth,(run_y+1)*depth):
+        for x in range(run_x*depth,(run_x+1)*depth):
+            for i in range (0,3):
+                picture[y]
+                picture[y][x]
+                rgb[i]
+                rgb[i] += picture[y][x][i]
+            pixel_count+= 1
+    average_rgb = [0,0,0]
+    for i in range(0,3):
+        average = rgb[i]//pixel_count
+        average_rgb[i] = average
+    #print (average_rgb)
+    return average_rgb

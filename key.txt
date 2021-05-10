@@ -1,0 +1,6 @@
+1 forest
+2 water
+3 herbaceous
+4 barren
+5 urban
+6 ice
